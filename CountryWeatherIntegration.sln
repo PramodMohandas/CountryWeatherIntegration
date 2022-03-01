@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryWeatherIntegration", "CountryWeatherIntegration\CountryWeatherIntegration.csproj", "{A02F2E2E-00A5-4E9B-B109-82A04519EB42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryWeatherIntegration", "CountryWeatherIntegration\CountryWeatherIntegration.csproj", "{A02F2E2E-00A5-4E9B-B109-82A04519EB42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryWeatherService", "CountryWeatherService\CountryWeatherService.csproj", "{D6AA7448-F8CC-4414-B062-75FF232204F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryWeatherService", "CountryWeatherService\CountryWeatherService.csproj", "{D6AA7448-F8CC-4414-B062-75FF232204F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryWeatherDataRepository", "CountryWeatherDataRepository\CountryWeatherDataRepository.csproj", "{6A638488-FCAD-4931-96A9-B901B67CEADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryWeatherDataRepository", "CountryWeatherDataRepository\CountryWeatherDataRepository.csproj", "{6A638488-FCAD-4931-96A9-B901B67CEADE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryWeatherDataModel", "CountryWeatherDataModel\CountryWeatherDataModel.csproj", "{936514F0-9989-415E-BC14-2150456027F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryWeatherDataModel", "CountryWeatherDataModel\CountryWeatherDataModel.csproj", "{936514F0-9989-415E-BC14-2150456027F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryWeatherIntegrationTest", "CountryWeatherIntegrationTest\CountryWeatherIntegrationTest.csproj", "{6466EF9A-0A97-4F9F-B09C-D97C67950367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{936514F0-9989-415E-BC14-2150456027F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{936514F0-9989-415E-BC14-2150456027F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{936514F0-9989-415E-BC14-2150456027F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6466EF9A-0A97-4F9F-B09C-D97C67950367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6466EF9A-0A97-4F9F-B09C-D97C67950367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6466EF9A-0A97-4F9F-B09C-D97C67950367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6466EF9A-0A97-4F9F-B09C-D97C67950367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
