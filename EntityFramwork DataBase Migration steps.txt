@@ -1,0 +1,30 @@
+Step 1 : Mention SQL database connection string as follows(As per the requirement i am uisng SQL Local DB here).This will create a database named CountryWeatherDB after we run all migration scripts as given below.
+
+If you want change the database please feel to change here in CountryWeatherConnection value.
+
+My Connection string in appsettings.json
+
+"ConnectionStrings": {
+    "CountryWeatherConnection": "Server=(localdb)\\MSSQLLocalDB;Initial Catalog=CountryWeatherDB;Integrated Security=true;"
+  }
+
+Step 2 : Open Package Manager Console 
+Tools -> Nuget Package Manager -> Package Manager Console
+
+Step 3 : Change Deafult project in Package Manager Console to CountryWeatherDataRepository
+
+Step 4 : Change directory to CountryWeatherDataRepository
+
+	PM> cd D:\Dot_net_applications\Deloitte\CountryWeatherIntegration\CountryWeatherDataRepository (Here change as per you system local directory where project is copied)
+
+Step 5 : Generate migration script 
+
+	PM> dotnet ef migrations add InitialCreate -s ..\CountryWeatherIntegration\CountryWeatherIntegration.csproj
+
+Step 6 : If you want to remove migration script then exceute following cmd
+       
+	PM> dotnet ef migrations remove -s ..\CountryWeatherIntegration\CountryWeatherIntegration.csproj
+
+Step 7 : To Create or update database exceute following cmd
+       
+	PM> dotnet ef database update -s ..\CountryWeatherIntegration\CountryWeatherIntegration.csproj
